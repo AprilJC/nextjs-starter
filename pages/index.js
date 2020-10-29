@@ -5,7 +5,7 @@ import { projects } from '../utils/projectsData';
 
 const Home = () => (
   <div className="home">
-    <h1>Hello from Nextjs?</h1>
+    <h1>What you can do using Nextjs?</h1>
     <div className="card-grid">
       {projects.map((project) => {
         const Icon = projectIcons[project.id];
